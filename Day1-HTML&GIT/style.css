@@ -1,0 +1,71 @@
+h1,
+h4 {
+    padding: 0px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h2,
+p {
+    padding: 15px;
+}
+
+.header {
+    height: 150px;
+    background-color: gray;
+    color: #fff;
+}
+
+.title {
+
+    font-size: 70px;
+    text-align: center;
+    line-height: 200px;
+}
+
+.main {
+    height: 400px;
+    width: 100%;
+}
+
+.side-bar {
+    height: 100%;
+    float: left;
+    width: 30%;
+    background-color: #8080803d;
+}
+
+.content {
+    float: right;
+    width: 70%;
+    height: 100%;
+    background-color: aliceblue;
+}
+
+.clear {
+    clear: both;
+}
+
+ul {
+    list-style: none;
+
+}
+
+ul li a {
+    color: blue;
+}
+
+footer {
+    background-color: gray;
+    height: 100px;
+    color: #fff;
+}
+
+h4 {
+    font-size: 30px;
+    line-height: 100px;
+    text-align: center;
+}

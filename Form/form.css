@@ -1,0 +1,81 @@
+* {
+    color: #000;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --label: #333638;
+    --placeholder: #8e959b;
+    --form-color: #f5f5dd;
+    --btn: #0079fa;
+    --border-color: #d1d7dd;
+}
+
+.container {
+    width: 900px;
+    max-width: 100%;
+    background-color: var(--form-color);
+    height: auto;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+fieldset {
+    padding: none;
+    border: none;
+
+}
+
+select {
+    padding: 3px;
+    border: 1px solid var(--border-color);
+    border-radius: 3px;
+}
+
+.wrapper-field {
+    display: flex;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+input[name="city"] {
+    width: 400px;
+}
+
+input[name="check"] {
+    margin-left: 14px;
+    margin-bottom: 14px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+input {
+    padding: 4px;
+    border: 1px solid var(--border-color);
+    border-radius: 3px;
+}
+
+span {
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    margin-left: 14px;
+    display: block;
+    background-color: var(--btn);
+    color: #fff;
+    padding: 5px;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #005bbd;
+}

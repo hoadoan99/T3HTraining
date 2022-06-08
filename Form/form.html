@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home work - form </title>
+    <link rel="stylesheet" href="form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <form action="#">
+            <div class="wrapper-field">
+                <!-- email  -->
+                <fieldset>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email">
+                </fieldset>
+                <!-- password  -->
+                <fieldset>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password">
+                </fieldset>
+            </div>
+            <!-- address  -->
+            <fieldset>
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address" value="123 Xuân Thủy">
+            </fieldset>
+            <!-- address 2  -->
+            <fieldset>
+                <label for="address2">Address 2</label>
+                <input type="text" id="address2" name="address2" value="Indochina Plaza Ha Noi">
+            </fieldset>
+            <div class="wrapper-field">
+                <!-- city  -->
+                <fieldset>
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="city">
+                </fieldset>
+                <!-- state  -->
+                <fieldset>
+                    <label for="state">State</label>
+                    <select>
+                        <option value="0">Choose...</option>
+                        <option value="1">California</option>
+                        <option value="2">New York</option>
+                        <option value="3">Texas</option>
+                    </select>
+                </fieldset>
+                <!-- zip  -->
+                <fieldset>
+                    <label for="zip">Zip</label>
+                    <input type="text" id="zip" name="zip">
+                </fieldset>
+            </div>
+            <input type="checkbox" name="check" id="check"> <span>Check me out</span>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>

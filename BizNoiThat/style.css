@@ -204,6 +204,10 @@ ul.core-hotline li {
     font-size: 14px;
 }
 
+.core-hotline {
+    padding-left: 0px;
+}
+
 ul.core-hotline li .fa {
     padding-right: 10px;
 }
@@ -213,4 +217,36 @@ footer .footer-copyright {
     padding: 20px 0 0 0;
     border-top: 1px solid #dbdbdb;
     margin-top: 20px;
+}
+
+footer .footer-copyright ul {
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    font-size: 0;
+}
+
+footer .footer-copyright p {
+    font-size: 12px;
+    padding: 0 125px;
+    margin-bottom: 25px;
+}
+
+footer .footer-copyright ul li {
+    display: inline-block;
+    position: relative;
+    padding: 0 10px;
+}
+
+footer .footer-copyright ul li a {
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #000;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+footer .footer-copyright ul li a:hover {
+    text-decoration: underline;
 }

@@ -1,0 +1,21 @@
+p,
+h1,
+h2,
+h3 {
+
+    display: block;
+    width: 200px;
+    margin: auto;
+
+}
+
+ul {
+    width: 300px;
+    margin: auto;
+    padding: 0;
+}
+
+#test2 {
+    width: 200px;
+    margin: auto;
+}
